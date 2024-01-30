@@ -276,7 +276,8 @@ h1,h2,h3,h4,h5,h6{
 /* Estilos generales sobre mi y otras páginas*/
 .content__about,
 .content__resumen,
-.content__portfolio{
+.content__portfolio,
+.content__blog{
     display: block;
     height: 100%;
     min-height: 100%;
@@ -289,7 +290,8 @@ h1,h2,h3,h4,h5,h6{
 .about__header,
 .resumen__header,
 .services__header,
-.portfolio__header{
+.portfolio__header,
+.blog__header{
     display: inline-block;
     margin-bottom: 3%;
 }
@@ -297,7 +299,8 @@ h1,h2,h3,h4,h5,h6{
 .about__title,
 .resumen__titles,
 .services__title,
-.portfolio__titles{
+.portfolio__titles,
+.blog__titles{
     font-size: 3.2rem;
     position: relative;
 
@@ -306,7 +309,8 @@ h1,h2,h3,h4,h5,h6{
 .about__title::after,
 .resumen__titles::after,
 .services__header::after,
-.portfolio__titles::after{
+.portfolio__titles::after,
+.blog__titles::after{
     content: "";
     position: absolute;
     top: 20px;
