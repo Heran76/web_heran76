@@ -1,7 +1,7 @@
 
 # Web Antonio Heredia 
 
-desarrollador Web
+Desarrollador Web
 
 ## 🚀 Sobre el trabajo
 Porfolio
