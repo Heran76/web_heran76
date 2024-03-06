@@ -763,7 +763,11 @@ h1,h2,h3,h4,h5,h6{
 .timeline__divider{
     position: relative;
     top: 0;
+<<<<<<< HEAD
     left: 0%;
+=======
+    left: %;
+>>>>>>> 347abc0ef196510286985d4b1eef00a98933b83a
     bottom: -18PX;
     width: 1px;
     height: auto;
