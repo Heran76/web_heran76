@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+    <!--Script JS-->
+    <script src="assets/js/menu.js" defer></script>
+
 
 </head>
 <body>
@@ -20,7 +23,7 @@
   <div class="layout">
 
     <!--Barra lateral (info usuario)-->
-    <aside class="layout__aside">
+    <aside class="layout__aside layout__aside--hiden layout__aside--visible">
 
         <section class="aside__user-info">
 
@@ -128,6 +131,12 @@
         </section>
 
     </aside>
+     
+    <!--Menu responsive-->
+   <div class="layout__menu-toggle layout__aside--visible">
+   <i class="menu-toggle__icon fa-solid fa-bars"></i>
+   <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+   </div>
 
     <!--Contenido principal <main>-->
     
